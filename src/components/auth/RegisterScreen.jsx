@@ -15,10 +15,10 @@ export const RegisterScreen = () => {
   
 
   const [formValues, handleInputChange] = useForm({
-    name: 'juanca',
-    email: 'noteimporta@gmail.com',
-    password: '352511',
-    password2: '352511'
+    name: 'Jonh Don',
+    email: 'Example@gmail.com',
+    password: '',
+    password2: ''
   })
 
   const { name, email, password, password2 } = formValues;
